@@ -1,0 +1,39 @@
+body {
+  color: #444;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#login {}
+
+.input-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-form input {
+  height: 25px;
+  padding: 3px;
+  width: 100%;
+  margin: 0 5px;
+}
+
+.btn {
+  display: inline-block;
+}
+
+.btn-wrapper {
+  text-align: right;
+}
+
+.btn-wrapper .btn {
+  cursor: pointer;
+  background-color: #428ce6;
+  color: #fff;
+  padding: 4px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+}
